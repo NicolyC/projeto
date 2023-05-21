@@ -1,0 +1,42 @@
+:root{
+  --cor-de-fundo: #0E141B;
+--cor-2: #4E0447;
+--cor-3: #061b4b;
+--cor-4: #1d8c77;
+--cor-branco: #ffffff;
+--cor-barra: #ff00c8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  box-sizing: border-box;
+}
+
+body{
+background: var(--cor-de-fundo);
+color: var(--cor-branco);
+height: 100vh;
+background-size: cover;
+}
+
+
+
+
+
+
+/* PAGINA CONTATO*/
+
+.card{
+  position: relative;
+  width: 350px;
+  height: 190px;
+  background: var(--cor-branco);
+  border-radius: 20px;
+  box-shadow: 0px 35px 80px rgba(0,0,0,0.15);
+  transition: 0.5s;
+}
+.card:hover{
+  height: 450px;
+}
