@@ -218,7 +218,7 @@ color: var(--cor-branco);
   border-radius: 20px;
   box-shadow: 0 15px 50px rgba(0,0,0,0.35);
   overflow: hidden;
-  transition: 2.5s;
+  transition: 4.5s;
 }
 
 .card:hover .imgBx{
